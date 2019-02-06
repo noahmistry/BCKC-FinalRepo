@@ -1,0 +1,212 @@
+@import "skeleton";
+@import "partials/queries";
+@import "partials/contact";
+@import "comingsoon";
+
+
+// Global Var //
+$orange: #F7941E;
+$grey: #818285;
+$dark-grey: #78797B;
+$light-grey: #b3b3b3;
+$light-grey-2: #e6e6e6;
+$grey-variant: #DFE1E0;
+$white: #F3F3F3;
+$copper-red: #b87333;
+$gold: #DAA45C;
+$goldish: #FFF4CA;
+$orangish: #D46E50;
+$yellow-var:#F0DDB3;
+$brown: #403A34;
+$brown-var: #6D5546;
+$black: #2A2827;
+$blue: #00B8CA;
+
+
+// Mixin //
+$prefix:'-moz-', '-webkit-', '-o-', '-ms-', '';
+// ********************
+// fadeIn
+// ********************
+@mixin keyframe-fadeIn {
+  0%   { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes fadeIn {
+  @include keyframe-fadeIn;
+}
+@-webkit-keyframes fadeIn {
+  @include keyframe-fadeIn;
+}
+@-o-keyframes fadeIn {
+  @include keyframe-fadeIn;
+}
+@-ms-keyframes fadeIn {
+  @include keyframe-fadeIn;
+}
+@keyframes fadeIn {
+  @include keyframe-fadeIn;
+}
+@mixin fadeIn( $arg ) {
+  $keyframe-name:fadeIn;
+  $duration:$arg;
+  @each $p in $prefix {
+    #{$p}animation:$keyframe-name $duration;
+  }
+}
+
+body {
+    @include fadeIn(1s);
+}
+
+.main-header {
+    height: 440px;
+    background-color: $grey-variant;
+    .pusher {
+        padding-top: 1.8rem;
+    }
+    nav {
+        .flex {
+         display: flex;
+         padding-top: 1rem;
+         flex-wrap: wrap;
+         a {
+              flex:1;
+              list-style-type: none;
+              text-decoration: none;
+              text-align: center;
+              margin-top: 2px;
+              padding-top: 4px;
+              color: $dark-grey;
+              &:hover {
+                  color: $orange;
+                 -webkit-transition-duration: 0.5s;
+                transition-duration: 0.5s;
+                -webkit-transition-property: color;
+                transition-property: color;
+                  border-radius: 16px;
+              }
+              .sub-menu {
+                  list-style-type: none;
+                text-decoration: none;
+                flex-direction: column;
+              }
+             li {
+                border-left: 2px solid $grey;
+               font-family: 'Raleway';
+               font-weight: bold;
+                letter-spacing: 2px;
+                padding-top: 4px;
+             }
+             
+         }
+     }
+    }
+     
+    .nav-header {
+        height: 360px;
+        border-top:6px double $light-grey;
+        border-bottom:6px double $light-grey;
+        text-align: center;
+        a {
+            text-decoration: none;
+        }
+        img {
+            margin-top: 10%;
+            margin-left: -12%;
+            height: 160px;
+        }
+    .nav-logo {
+      margin-left: 12%;
+        #bc-title {
+        color: $grey;
+        font-family: 'Raleway';
+        font-size: 3.8em;
+        letter-spacing: 2px;
+        position: relative;
+        top: -5vh;
+        // margin-left: 10px;
+    }
+    #kc-title {
+        color: $orange;
+        font-family: 'Italianno';
+        font-size: 3.5rem;
+        font-weight: 600;
+        letter-spacing: 2px;
+        position: relative;
+        top: -1rem;
+        left: -15%;
+        }
+    }
+    }
+   
+}
+
+
+// Footer //
+footer {
+  // display: flex;
+  padding: 20px 0;
+ 
+  
+.social-footer-connect {
+   background: $dark-grey;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin-top: 5px;
+  justify-content: space-evenly;
+ 
+ .flex-items {
+   font-family: 'Raleway';
+  font-size: 1em;
+  font-weight: bold; 
+  text-transform: uppercase;
+  align-self: center;
+  margin: 0;
+  padding: 0;
+ }
+  a {
+    color: $black;
+    &:hover {
+      color: $grey-variant;
+    }
+  }
+
+}
+}
+
+// About Us //
+.about-us {
+  img {
+    display: flex;
+    justify-content: flex-start;
+    // width: 500px;
+    height: 600px;
+    margin: 2rem;
+    padding: 1rem;
+  }
+h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom:6px double $light-grey;
+  // align-content: baseline;
+  font-family: 'Playfair Display';
+  // text-align: center;
+  padding: 1rem;
+  margin: 2rem;
+}
+  span {
+    color: $black;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway';
+    font-size: 2rem;
+    // justify-content: flex-start;
+    // align-self: flex-start;
+    text-align: center;
+    padding:1rem;
+  }
+  }
+ 
