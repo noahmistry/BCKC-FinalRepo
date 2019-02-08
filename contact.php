@@ -71,15 +71,11 @@
                                         <a href="index.html">
                                             <li>HOME</li>
                                         </a>
-                                        <a href="undercstrct.html">
+                                        <a href="about-us.html">
                                             <li>ABOUT US</li>
                                         </a>
-                                        <a href="undercstrct.html">
+                                        <a href="services.html">
                                             <li>SERVICES</li>
-                                            <ul class="sub-menu">
-                                                <li>CONSTRUCTION</li>
-                                                <li>CONSTRUCTION</li>
-                                            </ul>
                                         </a>
                                         <a href="undercstrct.html">
                                             <li>GALLERY</li>
