@@ -210,3 +210,66 @@ h1 {
   }
   }
  
+// Page Banner //
+
+.bg-img-op {
+  height: 260px;
+ nav {
+        .flex {
+         display: flex;
+         padding-top: 1rem;
+         flex-wrap: wrap;
+         a {
+              flex:1;
+              list-style-type: none;
+              text-decoration: none;
+              text-align: center;
+              margin-top: 15%;
+              padding-top: 4px;
+              color: $dark-grey;
+              &:hover {
+                  color: $orange;
+                 -webkit-transition-duration: 0.5s;
+                transition-duration: 0.5s;
+                -webkit-transition-property: color;
+                transition-property: color;
+                  border-radius: 16px;
+              }
+              .sub-menu {
+                  list-style-type: none;
+                text-decoration: none;
+                flex-direction: column;
+              }
+             li {
+                border-left: 2px solid $grey;
+               font-family: 'Raleway';
+               font-weight: bold;
+                letter-spacing: 2px;
+                padding-top: 4px;
+             }
+             
+         }
+     }
+    }
+
+  &:after {
+    content: '';
+    background:url('https://i.imgur.com/6z8fcIr.jpg') center no-repeat;
+    opacity: .5;
+    height: 340px;
+    // width: 100%;
+    top: -10%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+  span {
+    h2 {
+      font-family: 'Playfair Display';
+      color: $white;
+    }
+
+  }
+}
