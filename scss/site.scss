@@ -213,16 +213,21 @@ h1 {
   // SERVICES //
   .services {
     .services-heading {
+      margin-top: 4%;
+      margin-bottom: 4%;
     #services-title {
+      //  border-bottom:6px double $light-grey;
+      //  width: 120px;
+      //  border-bottom-width: -1px;
       font-family: 'Playfair Display';
       // font-weight: 500;
       // font-size: 44px;
       line-height: 1.22727;
       text-align: center;
       letter-spacing: 2px;
-      margin-top: 8%;
-      margin-bottom: 5%;
-      padding: 1vh;
+      // margin-top: 8%;
+      // margin-bottom: 5%;
+      // padding: 4vh;
     }
     }
    .services-left-img {
@@ -233,12 +238,15 @@ h1 {
    }
   .services-img-description {
     // background: gray;
+    // background: url('https://i.imgur.com/6z8fcIr.jpg') center no-repeat;
     display: flex;
     height: 400px;
     align-items:center;
     justify-content: space-evenly;
     .serivces-img-text {
       text-align: center;
+      padding-left: 10px;
+      
      }
     }
 }

@@ -1000,14 +1000,14 @@ footer {
   text-align: center;
   padding: 1rem; }
 
-.services .services-heading #services-title {
-  font-family: 'Playfair Display';
-  line-height: 1.22727;
-  text-align: center;
-  letter-spacing: 2px;
-  margin-top: 8%;
-  margin-bottom: 5%;
-  padding: 1vh; }
+.services .services-heading {
+  margin-top: 4%;
+  margin-bottom: 4%; }
+  .services .services-heading #services-title {
+    font-family: 'Playfair Display';
+    line-height: 1.22727;
+    text-align: center;
+    letter-spacing: 2px; }
 
 .services .services-left-img {
   display: -webkit-box;
@@ -1030,4 +1030,5 @@ footer {
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly; }
   .services .services-img-description .serivces-img-text {
-    text-align: center; }
+    text-align: center;
+    padding-left: 10px; }
