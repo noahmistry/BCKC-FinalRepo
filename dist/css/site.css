@@ -999,3 +999,35 @@ footer {
   font-size: 2rem;
   text-align: center;
   padding: 1rem; }
+
+.services .services-heading #services-title {
+  font-family: 'Playfair Display';
+  line-height: 1.22727;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-top: 8%;
+  margin-bottom: 5%;
+  padding: 1vh; }
+
+.services .services-left-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+
+.services .services-img-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 400px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly; }
+  .services .services-img-description .serivces-img-text {
+    text-align: center; }

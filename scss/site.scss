@@ -209,4 +209,36 @@ h1 {
     padding:1rem;
   }
   }
- 
+
+  // SERVICES //
+  .services {
+    .services-heading {
+    #services-title {
+      font-family: 'Playfair Display';
+      // font-weight: 500;
+      // font-size: 44px;
+      line-height: 1.22727;
+      text-align: center;
+      letter-spacing: 2px;
+      margin-top: 8%;
+      margin-bottom: 5%;
+      padding: 1vh;
+    }
+    }
+   .services-left-img {
+    display: flex;
+    flex-direction:row;
+    // justify-content: space-evenly;
+    // margin-left: 1em;
+   }
+  .services-img-description {
+    // background: gray;
+    display: flex;
+    height: 400px;
+    align-items:center;
+    justify-content: space-evenly;
+    .serivces-img-text {
+      text-align: center;
+     }
+    }
+}
