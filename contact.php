@@ -22,6 +22,7 @@
 
     <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="dist/css/lightbox.css">  
     <link rel="stylesheet" href="dist/css/site.css">
     <link rel="stylesheet" href="dist/css/plugins/animate.css">
     <link rel="stylesheet" href="dist/css/plugins/hover-min.css">

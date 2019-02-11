@@ -274,3 +274,29 @@ h1 {
 
 // END OF SERVICES PAGE //
 
+// GALLERY //
+.gallery {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 310px 310px 310px;
+  margin-top: 4vh;
+  .gallery-three-rows {
+    align-items:  center;    
+    display: flex;
+    justify-content: space-evenly;
+    // background-color: red;
+    height: 400px;
+    // width: 240px;
+   
+    .gallery-div {
+       border: 2px solid $goldish;
+       border-radius: 20px;
+       height: 260px;
+       width: 400px;
+      align-items:  center;    
+      display: flex;
+      justify-content: space-around;
+
+    }
+  }
+}
