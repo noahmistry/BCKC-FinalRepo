@@ -59,6 +59,8 @@ body {
     @include fadeIn(1s);
 }
 
+
+// NAVBAR //
 .main-header {
     height: 440px;
     background-color: $grey-variant;
@@ -154,6 +156,10 @@ body {
 }
 
 
+// END OF NAVBAR //
+
+
+
 // Footer //
 footer {
   // display: flex;
@@ -187,7 +193,9 @@ footer {
 }
 }
 
-// About Us //
+// END OF FOOTER //
+
+// ABOUT US PAGE //
 .about-us {
   img {
     display: flex;
@@ -220,6 +228,8 @@ h1 {
     padding:1rem;
   }
   }
+
+  // END OF ABOUT US //
 
   // SERVICES //
   .services {
@@ -261,3 +271,6 @@ h1 {
      }
     }
 }
+
+// END OF SERVICES PAGE //
+
