@@ -61,7 +61,7 @@ body {
 
 // HEADER IMAGE & LOGO //
 .top-header {
-        height: 300px;
+        height: 280px;
         background-color: $grey-variant;
         padding-top: 2.5vh;
         padding-bottom: 3vh;
@@ -154,9 +154,9 @@ li{
         list-style-type:none;
         text-transform:uppercase;
         // 
-               font-family: 'Raleway';
-               font-weight: bold;
-                letter-spacing: 2px;
+        font-family: 'Raleway';
+        font-weight: bold;
+        letter-spacing: 2px;
         // margin: 1rem;
 a {
         display:flex;
@@ -179,38 +179,32 @@ a {
   }
 }
 }
-     
-    
-  
-
-
 // END OF NAVBAR //
-
-
 
 // Footer //
 footer {
-  margin-top: -5px;
-  
+        margin-top: -2px;
 .social-footer-connect {
-   background: $dark-grey;
-  display: flex;
-  flex-direction: row;
-  padding: 20px;
-  margin-top: 5px;
-  justify-content: space-evenly;
+      background: $dark-grey;
+      display: flex;
+      flex-direction: row;
+      padding: 10px;
+      margin-top: 2px;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 59px;
  
  .flex-items {
-   font-family: 'Raleway';
-  font-size: 1em;
-  font-weight: bold; 
-  text-transform: uppercase;
-  align-self: center;
-  margin: 0;
-  padding: 0;
+      font-family: 'Raleway';
+      font-size: 1em;
+      font-weight: bold; 
+      text-transform: uppercase;
+      align-self: center;
+      margin: 0;
+      padding: 0;
  }
   a {
-    color: $black;
+      color: $black;
     &:hover {
       color: $grey-variant;
     }

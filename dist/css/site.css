@@ -855,7 +855,7 @@ body {
   animation: fadeIn 1s; }
 
 .top-header {
-  height: 300px;
+  height: 280px;
   background-color: #DFE1E0;
   padding-top: 2.5vh;
   padding-bottom: 3vh; }
@@ -968,7 +968,7 @@ body {
           border-radius: 16px; }
 
 footer {
-  margin-top: -5px; }
+  margin-top: -2px; }
   footer .social-footer-connect {
     background: #78797B;
     display: -webkit-box;
@@ -978,11 +978,15 @@ footer {
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    padding: 20px;
-    margin-top: 5px;
+    padding: 10px;
+    margin-top: 2px;
     -webkit-box-pack: space-evenly;
     -ms-flex-pack: space-evenly;
-    justify-content: space-evenly; }
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 59px; }
     footer .social-footer-connect .flex-items {
       font-family: 'Raleway';
       font-size: 1em;

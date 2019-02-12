@@ -1,7 +1,7 @@
 
 $('.owl-carousel').owlCarousel({
     loop: true,
-    margin: 5,
+    // margin: 5,
     // nav: true,
     // animateIn:fadeIn,
     dots:false,
