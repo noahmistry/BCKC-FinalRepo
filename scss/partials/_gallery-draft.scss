@@ -1,0 +1,149 @@
+// GALLERY//
+$transition: all ease-in 400ms; 
+.gallery {
+        display: grid;
+        border: 2px solid green;
+        grid-template-columns: 0 100% 100%;
+        grid-template-rows:  450px 450px;
+        grid-template-areas: "header"
+                              "first-row-portfolio"
+                              "second-row-portfolio";
+        height: 720px;                              
+.gallery-header {
+        display: flex;
+        align-self: center; 
+        flex-direction: column;
+        border: 2px solid red;
+        grid-area: header;
+
+h1 {
+          display: flex;
+          // flex-direction: column;
+          // justify-content: center;
+          align-self: center;
+          border-right:6px double $light-grey;
+          font-family: 'Playfair Display';
+          text-align: center;
+          padding: 1rem;
+          margin: 2rem;
+}
+}
+.gallery-content {
+          display: grid;
+          // border: 2px solid blue;
+          height: 550px;
+          padding: 1rem;
+.gallery-row-one,
+.gallery-row-two {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+.gallery-item {
+           align-self: center;
+          // border: 2px dotted green;
+          width: 30%;
+          min-height: 80%;
+.img-container {
+.img-layer {
+            background: rgba(255, 255, 255, 0.8);
+            display: none;
+            position: absolute;
+            width: 100%;
+            min-height: 350px;
+            transition: $transition;
+}
+
+.gallery-label {
+          display: flex;
+          justify-content: center;
+          border: 2px dotted green;
+
+&::hover {
+  background-color: black;
+}
+h2             {
+          font-size: 32px;
+          // font-weight: bold;
+          font-family: 'Playfair Display';
+           /* fallback for old browsers */
+          // border: 4px solid 
+          color: $light-grey-2;
+          position: absolute;
+          padding-top: 1rem;
+          transition: all ease-in 400ms;
+          margin-top: 8%;
+          letter-spacing: 3px;
+          // border: 1px solid $white;
+          // opacity: .5;
+
+
+}
+}
+}
+#carol-thumbnail {
+          background: url('https://i.imgur.com/mnUdIDwl.jpg') center no-repeat;
+          background-size: cover;
+          height: 350px; 
+          transition: all ease-in 400ms;
+          // opacity: .7;
+// &::after {
+//   font-family: "Font Awesome 5 Free";
+//   font-weight: 900;
+//   font-size: 2em;
+//   content: "\f002";
+//   color: $grey-variant;
+//   display: flex;
+//   justify-content: center;
+//   margin-top: 2em;
+//   // border: 2px solid green;
+// }
+}
+#epping-thumbnail {
+          background: url('https://i.imgur.com/r4ntHMql.jpg')center no-repeat;
+          background-size: cover;
+          height: 350px; 
+          transition: all ease-in 400ms;
+}
+#keith-thumbnail {
+          background: url('https://i.imgur.com/Hlo4COZl.jpg')center no-repeat;
+          background-size: cover;
+          height: 350px; 
+          transition: all ease-in 400ms;
+}
+#norbury-thumbnail {
+          background: url('https://i.imgur.com/Fdj5Wodl.jpg')center no-repeat;
+          background-size: cover;
+          height: 350px; 
+          transition: all ease-in 400ms;
+}
+#northvan-thumbnail {
+          background: url('https://i.imgur.com/b24uyMDl.jpg') center no-repeat;
+          background-size: cover; 
+          height: 350px; 
+          transition: all ease-in 400ms;
+}
+#paroo-thumbnail {
+          background: url('https://i.imgur.com/b8FfjbBl.jpg') center no-repeat;
+          background-size: cover;
+          height: 350px; 
+          transition: all ease-in 400ms;
+}
+#wellsgreen-thumbnail {
+          background: url('https://i.imgur.com/bbKDrcYl.jpg') center no-repeat;
+          background-size: cover;
+          height: 350px; 
+          transition: all ease-in 400ms;
+}
+#willoughby-thumbnail {
+          background: url('https://i.imgur.com/MGVtjggl.jpg') center no-repeat;
+          background-size: cover;
+          height: 350px; 
+          transition: all ease-in 400ms;
+}
+
+  
+}          
+}
+}
+
+}
