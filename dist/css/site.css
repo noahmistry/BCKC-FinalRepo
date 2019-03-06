@@ -817,6 +817,189 @@ form {
       margin-left: -3rem;
       padding: 10px; }
 
+.gallery-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+  grid-gap: 20px;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  padding: 1em; }
+  .gallery-grid .grid-item {
+    border: 1px solid #ccc;
+    -webkit-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    max-width: 100%; }
+    .gallery-grid .grid-item #carol-img {
+      background: url("https://i.imgur.com/Eh1XDea.jpg") center no-repeat;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      background-size: cover;
+      height: 680px;
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+    .gallery-grid .grid-item #epping-img {
+      background: url("https://i.imgur.com/g1yoBqw.jpg") center no-repeat;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      background-size: cover;
+      height: 680px;
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+    .gallery-grid .grid-item #keith-img {
+      background: url("https://i.imgur.com/5yZGxGQ.jpg") center no-repeat;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      background-size: cover;
+      height: 680px;
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+    .gallery-grid .grid-item #norbury-img {
+      background: url("https://i.imgur.com/DHWtEtx.jpg") center no-repeat;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      background-size: cover;
+      height: 680px;
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+    .gallery-grid .grid-item #northvan-img {
+      background: url("https://i.imgur.com/EK46smU.jpg") center no-repeat;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      background-size: cover;
+      height: 680px;
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+    .gallery-grid .grid-item #paroo-img {
+      background: url("https://i.imgur.com/0OSVBAf.jpg") center no-repeat;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      background-size: cover;
+      height: 680px;
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+    .gallery-grid .grid-item a {
+      font-size: 3em;
+      font-weight: bold;
+      letter-spacing: 1rem;
+      text-decoration: none;
+      color: #F3F3F3;
+      text-align: center;
+      width: 80%;
+      border: 4px solid #F3F3F3; }
+      .gallery-grid .grid-item a:hover {
+        -webkit-transition: all 0.8s ease;
+        -o-transition: all 0.8s ease;
+        transition: all 0.8s ease;
+        background: rgba(0, 0, 0, 0.6);
+        opacity: 1; }
+
+.gallery-grid-2 {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(680px, 1fr));
+  grid-gap: 20px;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  padding: 1em; }
+  .gallery-grid-2 #wellsgreen-img {
+    background: url("https://i.imgur.com/bbKDrcY.jpg") center no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-size: cover;
+    height: 680px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .gallery-grid-2 #willoughby-img {
+    background: url("https://i.imgur.com/2kYyThq.jpg") center no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-size: cover;
+    height: 680px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .gallery-grid-2 a {
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 1rem;
+    text-decoration: none;
+    color: #F3F3F3;
+    text-align: center;
+    width: 80%;
+    border: 4px solid #F3F3F3; }
+    .gallery-grid-2 a:hover {
+      -webkit-transition: all 0.8s ease;
+      -o-transition: all 0.8s ease;
+      transition: all 0.8s ease;
+      background: rgba(0, 0, 0, 0.6);
+      opacity: 1; }
+
 @-moz-keyframes fadeIn {
   0% {
     opacity: 0; }
@@ -1043,16 +1226,8 @@ footer {
   text-align: center;
   padding: 1rem; }
 
-.services .services-heading {
-  margin-top: 4%;
-  margin-bottom: 4%; }
-  .services .services-heading #services-title {
-    font-family: 'Playfair Display';
-    line-height: 1.22727;
-    text-align: center;
-    letter-spacing: 2px; }
-
-.services .services-left-img {
+section .services-picture-row,
+section .services-header-row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1060,18 +1235,35 @@ footer {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row; }
-
-.services .services-img-description {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 400px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly; }
-  .services .services-img-description .serivces-img-text {
-    text-align: center;
-    padding-left: 10px; }
+  section .services-picture-row .service-img,
+  section .services-header-row .service-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: .1em;
+    padding: .3em;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  section .services-picture-row .service-headings,
+  section .services-header-row .service-headings {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: .1em;
+    padding: .3em;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    section .services-picture-row .service-headings h2,
+    section .services-header-row .service-headings h2 {
+      text-align: center; }

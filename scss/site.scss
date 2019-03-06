@@ -2,6 +2,8 @@
 @import "partials/queries";
 @import "partials/contact";
 @import "comingsoon";
+@import "partials/gallery-draft";
+
 
 
 // Global Var //
@@ -250,45 +252,32 @@ h1 {
                     // END OF ABOUT US //
 
                       // SERVICES //
-  .services {
-    .services-heading {
-      margin-top: 4%;
-      margin-bottom: 4%;
-    #services-title {
-      //  border-bottom:6px double $light-grey;
-      //  width: 120px;
-      //  border-bottom-width: -1px;
-      font-family: 'Playfair Display';
-      // font-weight: 500;
-      // font-size: 44px;
-      line-height: 1.22727;
-      text-align: center;
-      letter-spacing: 2px;
-      // margin-top: 8%;
-      // margin-bottom: 5%;
-      // padding: 4vh;
-    }
-    }
-   .services-left-img {
-    display: flex;
-    flex-direction:row;
-    // justify-content: space-evenly;
-    // margin-left: 1em;
-   }
-  .services-img-description {
-    // background: gray;
-    // background: url('https://i.imgur.com/6z8fcIr.jpg') center no-repeat;
-    display: flex;
-    height: 400px;
-    align-items:center;
-    justify-content: space-evenly;
-    .serivces-img-text {
-      text-align: center;
-      padding-left: 10px;
-      
-     }
-    }
-}
+section {
+.services-picture-row,
+.services-header-row {
+          display: flex;
+          flex-direction: row;
 
+.service-img {
+          display: flex;
+          margin: .1em;
+          padding: .3em;
+          flex: 1;
+          // justify-content: flex-start;
+          justify-content: center;
+}
+.service-headings {
+          display: flex;
+          margin: .1em;
+          padding: .3em;
+          flex: 1;
+          align-items: center;
+          justify-content: center;
+h2 {
+          text-align: center;
+}
+}
+}
+}
                 // END OF SERVICES PAGE //
 
