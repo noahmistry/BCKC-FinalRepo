@@ -75,12 +75,8 @@
                                         <a href="about-us.html">
                                             <li>ABOUT US</li>
                                         </a>
-                                        <a href="services.html">
-                                            <li>SERVICES</li>
-                                        </a>
-                                        <a href="undercstrct.html">
-                                            <li>GALLERY</li>
-                                        </a>
+                                        <li><a href="services-draft.html">Services</a></li>
+                                       <li><a href="gallery-draft.html">*Gallery-draft*</a></li>
                                         <a href="contact.php">
                                             <li>CONTACT US</li>
                                         </a>
@@ -167,6 +163,9 @@
             <a href="https://www.houzz.com/pro/bestchoicekitchencabinets/__public" target="_blank">
               <span class="flex-items"><i class="fab fa-houzz"></i></span>
             </a>
+            <a href="https://www.instagram.com/bestchoicekitchen/" target="_blank">
+                    <span class="flex-items"><i class="fab fa-instagram"></i></i></span>
+                </a>
           </div>
           
         </div>
