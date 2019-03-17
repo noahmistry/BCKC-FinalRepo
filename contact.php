@@ -224,9 +224,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
 
 <!-- // END // -->
 
-
-    <!-- End Document
+<!-- JS Libraries
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="dist/jslib/site.js"></script>
+<script src="dist/jslib/vendor/lazysizes.min.js"></script>
+<script src="dist/jslib/vendor/owl.carousel.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
 </body>
 
 </html>
