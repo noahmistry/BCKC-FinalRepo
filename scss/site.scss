@@ -283,3 +283,23 @@ h2 {
 }
                 // END OF SERVICES PAGE //
 
+
+// CONTACT US //
+.company-header {
+      display: flex;
+      flex: 1;
+      padding-top: 3vh;
+h1 {
+      border-bottom: 4px double $light-grey;
+      width: 25%;
+      color: $orange;
+}
+p {
+      color: $grey;
+      font-size: 1em;
+      font-family: 'Raleway';
+      font-weight: bold;
+      margin-bottom: .2em;
+      letter-spacing: .1rem;
+}
+}

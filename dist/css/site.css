@@ -1280,3 +1280,23 @@ section .services-header-row {
     section .services-picture-row .service-headings h2,
     section .services-header-row .service-headings h2 {
       text-align: center; }
+
+.company-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding-top: 3vh; }
+  .company-header h1 {
+    border-bottom: 4px double #b3b3b3;
+    width: 25%;
+    color: #F7941E; }
+  .company-header p {
+    color: #818285;
+    font-size: 1em;
+    font-family: 'Raleway';
+    font-weight: bold;
+    margin-bottom: .2em;
+    letter-spacing: .1rem; }
