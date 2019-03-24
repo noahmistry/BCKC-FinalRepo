@@ -95,3 +95,38 @@ img {
    
 }
 }
+
+.company-header {
+  display: flex;
+  // justify-content:  center;
+  flex: 1;
+  padding-top: 3vh;
+
+  h1 {
+    display: flex;
+    border-bottom: 4px double $light-grey;
+    // width: 85%;
+    color: $orange;
+    justify-content: center;
+  }
+
+  h2 {
+      display: flex;
+      justify-content: center;
+      margin-top: 15%;
+      padding-top: 4vh;
+      color: $orange;
+      border-bottom: 4px double $light-grey;
+      // width: 50%;
+  }
+
+  p {
+    color: $grey;
+    font-size: 1em;
+    font-family: 'Raleway';
+    font-weight: bold;
+    margin-bottom: .2em;
+    letter-spacing: .1rem;
+    text-align: center;
+  }
+}
