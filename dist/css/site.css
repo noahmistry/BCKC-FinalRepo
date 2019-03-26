@@ -1254,6 +1254,9 @@ body {
   -ms-animation: fadeIn 1s;
   animation: fadeIn 1s; }
 
+.main-carousel {
+  padding: 20px; }
+
 .top-header {
   height: 280px;
   background-color: #DFE1E0;
