@@ -857,7 +857,7 @@ form {
 .gallery-grid {
   display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(880px, 1fr));
   grid-gap: 20px;
   -webkit-box-align: stretch;
   -ms-flex-align: stretch;
@@ -971,7 +971,7 @@ form {
       text-decoration: none;
       color: #F3F3F3;
       text-align: center;
-      width: 80%;
+      padding: 10px;
       border: 4px solid #F3F3F3; }
       .gallery-grid .grid-item a:hover {
         -webkit-transition: all 0.8s ease;
@@ -983,7 +983,7 @@ form {
 .gallery-grid-2 {
   display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(680px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(880px, 1fr));
   grid-gap: 20px;
   -webkit-box-align: stretch;
   -ms-flex-align: stretch;
@@ -1028,7 +1028,7 @@ form {
     text-decoration: none;
     color: #F3F3F3;
     text-align: center;
-    width: 80%;
+    padding: 10px;
     border: 4px solid #F3F3F3; }
     .gallery-grid-2 a:hover {
       -webkit-transition: all 0.8s ease;

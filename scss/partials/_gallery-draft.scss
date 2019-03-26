@@ -1,6 +1,6 @@
 .gallery-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(880px, 1fr));
             grid-gap: 20px;
             align-items: stretch;
             padding: 1em;
@@ -72,7 +72,8 @@ a {
             color: $white;
             // height: 90px;
             text-align: center;
-            width: 80%;
+            padding: 10px;
+            // width: 80%;
             // overflow-wrap: break-word; 
             // word-wrap: break-word;
             // border: 2px solid green;
@@ -92,7 +93,7 @@ a {
 }            
 .gallery-grid-2 {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(680px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(880px, 1fr));
             grid-gap: 20px;
             align-items: stretch;
             padding: 1em;
@@ -123,7 +124,8 @@ a {
             color: $white;
             // height: 90px;
             text-align: center;
-            width: 80%;
+            padding: 10px;
+            // width: 80%;
             // overflow-wrap: break-word; 
             // word-wrap: break-word;
             // border: 2px solid green;
