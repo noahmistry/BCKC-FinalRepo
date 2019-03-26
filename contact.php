@@ -81,7 +81,7 @@
                   <h1>CONTACT</h1>
                   <p># 6-8528 123 Street</p>
                   <p>Surrey, British Columbia, V3W 3V6</p>
-                  <p>info@bestchoicekitchens.com</p>
+                  <p>info@bestchoicekitchencabinets.ca</p>
                   <p>Tel: (604) 591-2214</p>
                   <h2>HOURS</h2>
                   <p>Mon-Fri: 8 to 5:30 PM</p>

@@ -1124,7 +1124,8 @@ body {
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        height: 140px; }
+        height: 140px;
+        padding-left: 6vw; }
         .top-header .nav-header #nav-logo .nav-headings h1 {
           display: -webkit-box;
           display: -ms-flexbox;
@@ -1147,8 +1148,7 @@ body {
           font-family: 'Italianno';
           font-size: 3.5rem;
           font-weight: 600;
-          letter-spacing: 2px;
-          margin-left: 20%; }
+          letter-spacing: 2px; }
 
 .main-navigation {
   display: -ms-grid;
