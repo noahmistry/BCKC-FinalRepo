@@ -1,4 +1,5 @@
-    $('.main-carousel').slick({
+// GALLERY POPUP MODAL //
+  $('.main-carousel').slick({
         centerMode: true,
         variableWidth: true,
         autoplay: true,
@@ -29,3 +30,6 @@
             }
         ]
     });
+
+
+ 
