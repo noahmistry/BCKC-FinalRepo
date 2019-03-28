@@ -964,12 +964,12 @@ form {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center; }
-    .gallery-grid .grid-item .btn-popup-carol,
-    .gallery-grid .grid-item .btn-popup-epping,
-    .gallery-grid .grid-item .btn-popup-keith,
-    .gallery-grid .grid-item .btn-popup-norbury,
-    .gallery-grid .grid-item .btn-popup-northvan,
-    .gallery-grid .grid-item .btn-popup-paroo {
+    .gallery-grid .grid-item #btn-popup-carol,
+    .gallery-grid .grid-item #btn-popup-epping,
+    .gallery-grid .grid-item #btn-popup-keith,
+    .gallery-grid .grid-item #btn-popup-norbury,
+    .gallery-grid .grid-item #btn-popup-northvan,
+    .gallery-grid .grid-item #btn-popup-paroo {
       font-size: 3em;
       font-weight: bold;
       letter-spacing: 1rem;
@@ -979,12 +979,12 @@ form {
       text-align: center;
       padding: 10px;
       border: 4px solid #F3F3F3; }
-      .gallery-grid .grid-item .btn-popup-carol:hover,
-      .gallery-grid .grid-item .btn-popup-epping:hover,
-      .gallery-grid .grid-item .btn-popup-keith:hover,
-      .gallery-grid .grid-item .btn-popup-norbury:hover,
-      .gallery-grid .grid-item .btn-popup-northvan:hover,
-      .gallery-grid .grid-item .btn-popup-paroo:hover {
+      .gallery-grid .grid-item #btn-popup-carol:hover,
+      .gallery-grid .grid-item #btn-popup-epping:hover,
+      .gallery-grid .grid-item #btn-popup-keith:hover,
+      .gallery-grid .grid-item #btn-popup-norbury:hover,
+      .gallery-grid .grid-item #btn-popup-northvan:hover,
+      .gallery-grid .grid-item #btn-popup-paroo:hover {
         -webkit-transition: all 0.8s ease;
         -o-transition: all 0.8s ease;
         transition: all 0.8s ease;
@@ -1032,8 +1032,8 @@ form {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
-  .gallery-grid-2 .btn-popup-wellsgreen,
-  .gallery-grid-2 .btn-popup-willoughby {
+  .gallery-grid-2 #btn-popup-wellsgreen,
+  .gallery-grid-2 #btn-popup-willoughby {
     font-size: 3em;
     font-weight: bold;
     letter-spacing: 1rem;
@@ -1043,8 +1043,8 @@ form {
     text-align: center;
     padding: 10px;
     border: 4px solid #F3F3F3; }
-    .gallery-grid-2 .btn-popup-wellsgreen:hover,
-    .gallery-grid-2 .btn-popup-willoughby:hover {
+    .gallery-grid-2 #btn-popup-wellsgreen:hover,
+    .gallery-grid-2 #btn-popup-willoughby:hover {
       -webkit-transition: all 0.8s ease;
       -o-transition: all 0.8s ease;
       transition: all 0.8s ease;
