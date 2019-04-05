@@ -857,7 +857,7 @@ form {
 .gallery-grid {
   display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(880px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(580px, 1fr));
   grid-gap: 20px;
   -webkit-box-align: stretch;
   -ms-flex-align: stretch;
@@ -868,6 +868,22 @@ form {
     -webkit-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
     max-width: 100%; }
+    .gallery-grid .grid-item #wellsgreen-img {
+      background: url("https://lh3.googleusercontent.com/62xgm5zwSDaBpi9TU3_0eB41Whzu84xydlLOd-96D6QXGbZYXVWlxRjt18QGQ-ldcrBwF-gnJ6_QFc_PF2-jU6cSJ8i0G1BxY3fuy7EctIWi3fdKBMgkjRW4W0hi1EN_vI_bOqT0ow=w2400") center no-repeat;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      background-size: cover;
+      height: 680px;
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
     .gallery-grid .grid-item #carol-img {
       background: url("https://lh3.googleusercontent.com/GQdz4qGBQXHc8wPeVckqRNRVRXbRsYJR-n0diPv9vqxY-zMv7AbcfDDRgH8MIuKI2vFJMTQYZxXxeAMrpi83PzOs3TFOxN7pkNOALUOUCH25eNCctIPn1M1O0FlL3x-cMDFbsTHTnQ=w2400") center no-repeat;
       display: -webkit-box;
@@ -916,24 +932,8 @@ form {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center; }
-    .gallery-grid .grid-item #norbury-img {
+    .gallery-grid .grid-item #willoughby-img {
       background: url("https://lh3.googleusercontent.com/uApUHBZRT_xrZ5St9wXAtdKidL0qKWBW80U_NvAWNmO2OHGDK815Ujf7H1yur3sY4fm-bEMpSIKHAHaX8CIJ07Xr492b8mEHaVPvTocO02NBa5QM5KcCMO7QyuavyEJGmOktYnqMJA=w2400") center no-repeat;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      background-size: cover;
-      height: 680px;
-      -webkit-box-flex: 1;
-      -ms-flex: 1;
-      flex: 1;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center; }
-    .gallery-grid .grid-item #northvan-img {
-      background: url("https://lh3.googleusercontent.com/ncJIej3vLg505ShfA-lu_ZVem6royzloKHHrLcgMnDN9GevsfYhB66ndH-EVDvRybwbO1unsgIUJKeRYA5Y5rS2pRmAxqfmNkYDfammlwpGdBS-ERUrrIFbv6qdGaKdPN5DiUtNzrQ=w2400") center no-repeat;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -964,12 +964,62 @@ form {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center; }
+    .gallery-grid .grid-item #willoughby-img {
+      background: url("https://lh3.googleusercontent.com/JK0msb66DLZSaH14NX6L8UHk8zZ013y7PbMO-chiBQkK29bO-sJH8aORpocsaihEfnw67iCcIBZd3x9-iCnr6HyOxvD8HQR59ybQQZctODKTfcaKGwUOXk0R9ANefExA8qyzIPjI4g=w2400") center no-repeat;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      background-size: cover;
+      height: 680px;
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+    .gallery-grid .grid-item #northvan-img {
+      background: url("https://lh3.googleusercontent.com/ncJIej3vLg505ShfA-lu_ZVem6royzloKHHrLcgMnDN9GevsfYhB66ndH-EVDvRybwbO1unsgIUJKeRYA5Y5rS2pRmAxqfmNkYDfammlwpGdBS-ERUrrIFbv6qdGaKdPN5DiUtNzrQ=w2400") center no-repeat;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      background-size: cover;
+      height: 680px;
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+    .gallery-grid .grid-item #norbury-img {
+      background: url("https://lh3.googleusercontent.com/ncJIej3vLg505ShfA-lu_ZVem6royzloKHHrLcgMnDN9GevsfYhB66ndH-EVDvRybwbO1unsgIUJKeRYA5Y5rS2pRmAxqfmNkYDfammlwpGdBS-ERUrrIFbv6qdGaKdPN5DiUtNzrQ=w2400") center no-repeat;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      background-size: cover;
+      height: 680px;
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
     .gallery-grid .grid-item #btn-popup-carol,
     .gallery-grid .grid-item #btn-popup-epping,
     .gallery-grid .grid-item #btn-popup-keith,
-    .gallery-grid .grid-item #btn-popup-norbury,
     .gallery-grid .grid-item #btn-popup-northvan,
-    .gallery-grid .grid-item #btn-popup-paroo {
+    .gallery-grid .grid-item #btn-popup-paroo,
+    .gallery-grid .grid-item #btn-popup-wellsgreen,
+    .gallery-grid .grid-item #btn-popup-willoughby,
+    .gallery-grid .grid-item #btn-popup-norbury {
       font-size: 3em;
       font-weight: bold;
       letter-spacing: 1rem;
@@ -982,87 +1032,16 @@ form {
       .gallery-grid .grid-item #btn-popup-carol:hover,
       .gallery-grid .grid-item #btn-popup-epping:hover,
       .gallery-grid .grid-item #btn-popup-keith:hover,
-      .gallery-grid .grid-item #btn-popup-norbury:hover,
       .gallery-grid .grid-item #btn-popup-northvan:hover,
-      .gallery-grid .grid-item #btn-popup-paroo:hover {
+      .gallery-grid .grid-item #btn-popup-paroo:hover,
+      .gallery-grid .grid-item #btn-popup-wellsgreen:hover,
+      .gallery-grid .grid-item #btn-popup-willoughby:hover,
+      .gallery-grid .grid-item #btn-popup-norbury:hover {
         -webkit-transition: all 0.8s ease;
         -o-transition: all 0.8s ease;
         transition: all 0.8s ease;
         background: rgba(0, 0, 0, 0.6);
         opacity: 1; }
-
-.gallery-grid-2 {
-  display: -ms-grid;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(880px, 1fr));
-  grid-gap: 20px;
-  -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
-  padding: 1em; }
-  .gallery-grid-2 #wellsgreen-img {
-    background: url("https://lh3.googleusercontent.com/62xgm5zwSDaBpi9TU3_0eB41Whzu84xydlLOd-96D6QXGbZYXVWlxRjt18QGQ-ldcrBwF-gnJ6_QFc_PF2-jU6cSJ8i0G1BxY3fuy7EctIWi3fdKBMgkjRW4W0hi1EN_vI_bOqT0ow=w2400") center no-repeat;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    background-size: cover;
-    height: 680px;
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
-  .gallery-grid-2 #willoughby-img {
-    background: url("https://lh3.googleusercontent.com/JK0msb66DLZSaH14NX6L8UHk8zZ013y7PbMO-chiBQkK29bO-sJH8aORpocsaihEfnw67iCcIBZd3x9-iCnr6HyOxvD8HQR59ybQQZctODKTfcaKGwUOXk0R9ANefExA8qyzIPjI4g=w2400") center no-repeat;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    background-size: cover;
-    height: 680px;
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
-  .gallery-grid-2 #btn-popup-wellsgreen,
-  .gallery-grid-2 #btn-popup-willoughby {
-    font-size: 3em;
-    font-weight: bold;
-    letter-spacing: 1rem;
-    text-decoration: none;
-    color: #F3F3F3;
-    height: 90px;
-    text-align: center;
-    padding: 10px;
-    border: 4px solid #F3F3F3; }
-    .gallery-grid-2 #btn-popup-wellsgreen:hover,
-    .gallery-grid-2 #btn-popup-willoughby:hover {
-      -webkit-transition: all 0.8s ease;
-      -o-transition: all 0.8s ease;
-      transition: all 0.8s ease;
-      background: rgba(0, 0, 0, 0.6);
-      opacity: 1; }
-
-.gallery-carol {
-  display: -ms-grid;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
-  .gallery-carol figure img {
-    border: 1px solid #ccc;
-    -webkit-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
-    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
-    max-width: 100%; }
 
 /* modal open|close controller */
 #mpo-modal-controller {
