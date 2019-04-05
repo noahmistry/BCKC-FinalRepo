@@ -109,29 +109,27 @@ img {
 }
 .nav-headings {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 140px;
-  padding-left: 6vw;
+  justify-content: center;
+  width: 100%;
 h1 {
         display: flex;
         justify-content: center;
         color: $grey;
         font-family: 'Raleway';
-        font-size: 3.8em;
+        font-size: 3em;
         letter-spacing: 2px;
-        margin: 0;
-    }
-h2 {
-        display: flex;
-        align-self: center;
+        // margin: 0;
+        padding-left: 18%;
+        margin-top: 2rem;
+  span {
         color: $orange;
-        font-family: 'Italianno';
-        font-size: 3.5rem;
-        font-weight: 600;
-        letter-spacing: 2px;
-        // margin-left: 20%;
-
-}
+         display: flex;
+        justify-content: center;
+        padding-left: 1rem;
+  }
+    }
 }
 }    
 }
