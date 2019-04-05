@@ -1324,8 +1324,9 @@ body {
           font-family: 'Raleway';
           font-size: 3em;
           letter-spacing: 2px;
-          padding-left: 18%;
-          margin-top: 2rem; }
+          padding-left: 17%;
+          margin-top: 2rem;
+          width: 100%; }
           .top-header .nav-header #nav-logo .nav-headings h1 span {
             color: #F7941E;
             display: -webkit-box;
