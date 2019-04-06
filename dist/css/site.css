@@ -1259,7 +1259,7 @@ body {
         list-style-type: none; }
         .top-header .nav-header #nav-logo .nav-logo-link img {
           position: absolute;
-          left: 28%;
+          left: 18%;
           top: 6vh;
           height: 160px;
           width: 160px; }
@@ -1287,7 +1287,7 @@ body {
           font-family: 'Raleway';
           font-size: 3em;
           letter-spacing: 2px;
-          padding-left: 17%;
+          margin-left: 12%;
           margin-top: 2rem;
           width: 100%; }
           .top-header .nav-header #nav-logo .nav-headings h1 span {
