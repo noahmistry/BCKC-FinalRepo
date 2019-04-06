@@ -56,33 +56,30 @@ $("#btn-popup-keith").magnificPopup({
             src: "https://res.cloudinary.com/hsi/image/upload/v1554515412/BCKC/Keith/Keith--007.jpg",
             title: "Keith Gallery Image 14"
         },
+        
         {
-            src: "https://res.cloudinary.com/hsi/image/upload/v1554514729/BCKC/Epping/epping-ct-3850-2-15-resized.jpg",
+            src: "https://res.cloudinary.com/hsi/image/upload/v1554515412/BCKC/Keith/Keith--020.jpg",
             title: "Keith Gallery Image 15"
         },
         {
-            src: "https://res.cloudinary.com/hsi/image/upload/v1554515412/BCKC/Keith/Keith--020.jpg",
+            src: "https://res.cloudinary.com/hsi/image/upload/v1554515411/BCKC/Keith/Keith--008.jpg",
             title: "Keith Gallery Image 16"
         },
         {
-            src: "https://res.cloudinary.com/hsi/image/upload/v1554515411/BCKC/Keith/Keith--008.jpg",
+            src: "https://res.cloudinary.com/hsi/image/upload/v1554515411/BCKC/Keith/Keith--003.jpg",
             title: "Keith Gallery Image 17"
         },
         {
-            src: "https://res.cloudinary.com/hsi/image/upload/v1554515411/BCKC/Keith/Keith--003.jpg",
+            src: "https://res.cloudinary.com/hsi/image/upload/v1554515410/BCKC/Keith/Keith--001.jpg",
             title: "Keith Gallery Image 18"
         },
         {
-            src: "https://res.cloudinary.com/hsi/image/upload/v1554515410/BCKC/Keith/Keith--001.jpg",
+            src: "https://res.cloudinary.com/hsi/image/upload/v1554515410/BCKC/Keith/Keith--002.jpg",
             title: "Keith Gallery Image 19"
         },
         {
-            src: "https://res.cloudinary.com/hsi/image/upload/v1554515410/BCKC/Keith/Keith--002.jpg",
-            title: "Keith Gallery Image 20"
-        },
-        {
             src: "https://res.cloudinary.com/hsi/image/upload/v1554515409/BCKC/Keith/Keith--006.jpg",
-            title: "Keith Gallery Image 21"
+            title: "Keith Gallery Image 20"
         },
         
     ],
