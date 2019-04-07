@@ -4,6 +4,7 @@
 @import "comingsoon";
 @import "partials/gallery-draft";
 @import "partials/gallery-draft-2";
+@import "partials/home-slider";
 
 
 
@@ -66,8 +67,9 @@ body {
 }
 
 .main-carousel {
-        padding: 20px;
+        padding-top: 20px;
 }
+
 
 // HEADER IMAGE & LOGO //
 .top-header {
