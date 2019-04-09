@@ -65,20 +65,16 @@ $("#btn-popup-carol").magnificPopup({
             title: "Carol Gallery Image 16"
         },
         {
-            src: "https://res.cloudinary.com/hsi/image/upload/v1554514657/BCKC/Carol/02-resize.jpg",
+            src: "https://res.cloudinary.com/hsi/image/upload/v1554514657/BCKC/Carol/Carol--004-resized.jpg",
             title: "Carol Gallery Image 17"
         },
         {
-            src: "https://res.cloudinary.com/hsi/image/upload/v1554514657/BCKC/Carol/Carol--004-resized.jpg",
+            src: "https://res.cloudinary.com/hsi/image/upload/v1554514657/BCKC/Carol/Carol--005-resized.jpg",
             title: "Carol Gallery Image 18"
         },
         {
-            src: "https://res.cloudinary.com/hsi/image/upload/v1554514657/BCKC/Carol/Carol--005-resized.jpg",
-            title: "Carol Gallery Image 19"
-        },
-        {
             src: "https://res.cloudinary.com/hsi/image/upload/v1554514657/BCKC/Carol/Carol--002-resize.jpg",
-            title: "Carol Gallery Image 20"
+            title: "Carol Gallery Image 19"
         },
     ],
     gallery: {
