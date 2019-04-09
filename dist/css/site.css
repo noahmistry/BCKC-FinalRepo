@@ -1219,7 +1219,7 @@ form {
 .carousel-cell img {
   display: block;
   max-width: 100%;
-  max-height: 100%;
+  max-height: 120%;
   /* dim unselected */
   opacity: 0.7;
   -webkit-transform: scale(0.85);
@@ -1317,7 +1317,6 @@ body {
 
 .top-header {
   height: 280px;
-  background-color: #DFE1E0;
   padding-top: 2.5vh;
   padding-bottom: 3vh; }
   .top-header .nav-header {
@@ -1328,11 +1327,12 @@ body {
     height: 280px;
     border-top: 6px double #b3b3b3; }
     .top-header .nav-header #nav-logo {
+      background: url("https://res.cloudinary.com/hsi/image/upload/v1554783279/BCKC/backgrounds/full-bloom.png");
       display: -ms-grid;
       display: grid;
       -ms-grid-rows: 38px 190px;
       grid-template-rows: 38px 190px;
-      height: 220px; }
+      height: 230px; }
       .top-header .nav-header #nav-logo .nav-logo-link {
         width: 160px;
         height: 160px;
@@ -1366,10 +1366,11 @@ body {
           justify-content: center;
           color: #818285;
           font-family: 'Raleway';
-          font-size: 3em;
+          font-size: 3.2em;
+          font-weight: bold;
           letter-spacing: 2px;
           margin-left: 12%;
-          margin-top: 2rem;
+          margin-top: 4rem;
           width: 100%; }
           .top-header .nav-header #nav-logo .nav-headings h1 span {
             color: #F7941E;
@@ -1386,7 +1387,7 @@ body {
   display: grid;
   -ms-grid-rows: 100%;
   grid-template-rows: 100%;
-  height: 50px; }
+  height: 60px; }
   .main-navigation .menu {
     border-top: 6px double #b3b3b3;
     border-bottom: 6px double #b3b3b3;
@@ -1466,46 +1467,46 @@ footer {
       footer .social-footer-connect a:hover {
         color: #DFE1E0; }
 
-.about-us img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  height: 600px;
-  margin: 2rem;
-  padding: 1rem; }
-
-.about-us h1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  border-bottom: 6px double #b3b3b3;
-  font-family: 'Playfair Display';
-  padding: 1rem;
-  margin: 2rem; }
-
-.about-us span {
-  color: #2A2827;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  font-family: 'Raleway';
-  font-size: 2rem;
-  text-align: center;
-  padding: 1rem; }
+.about-us {
+  max-width: 1200px; }
+  .about-us img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    height: 600px;
+    margin: 2rem;
+    padding: 1rem; }
+  .about-us h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-bottom: 6px double #b3b3b3;
+    font-family: 'Playfair Display';
+    padding: 1rem;
+    margin: 2rem; }
+  .about-us span {
+    color: #2A2827;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-family: 'Raleway';
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem; }
 
 section .services-picture-row,
 section .services-header-row {

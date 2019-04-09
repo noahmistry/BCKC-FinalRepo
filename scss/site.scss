@@ -74,7 +74,7 @@ body {
 // HEADER IMAGE & LOGO //
 .top-header {
         height: 280px;
-        background-color: $grey-variant;
+        // background-color: $grey-variant;
         padding-top: 2.5vh;
         padding-bottom: 3vh;
         // border: 1px solid green;
@@ -90,11 +90,13 @@ body {
 #nav-logo {
         // display: flex;
         // justify-content: center;
+        // background: url('https://res.cloudinary.com/hsi/image/upload/v1554782638/BCKC/backgrounds/circuit.png');
+        background: url('https://res.cloudinary.com/hsi/image/upload/v1554783279/BCKC/backgrounds/full-bloom.png');
         display: grid;
         // grid-template-columns: 150px auto;
         grid-template-rows: 38px 190px;
         // border: 2px solid red;
-        height: 220px;
+        height: 230px;
 .nav-logo-link {
     width: 160px;
     height: 160px;
@@ -120,11 +122,12 @@ h1 {
         justify-content: center;
         color: $grey;
         font-family: 'Raleway';
-        font-size: 3em;
+        font-size: 3.2em;
+        font-weight: bold;
         letter-spacing: 2px;
         // margin: 0;
         margin-left: 12%;
-        margin-top: 2rem;
+        margin-top: 4rem;
         width: 100%;
   span {
         color: $orange;
@@ -144,7 +147,7 @@ h1 {
         // grid-template-columns: 500px;
         grid-template-rows: 100%;
         // border: 2px solid red;
-        height: 50px;
+        height: 60px; 
         // width: 900px;
 .menu {
         border-top: 6px double $light-grey;
@@ -228,6 +231,7 @@ footer {
 
                       // ABOUT US PAGE //
 .about-us {
+  max-width: 1200px;
   img {
     display: flex;
     justify-content: flex-start;
