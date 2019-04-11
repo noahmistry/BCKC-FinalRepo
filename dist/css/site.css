@@ -1207,7 +1207,7 @@ form {
   background: #F3F3F3; }
 
 .carousel-cell {
-  width: 70%;
+  width: 80%;
   height: 600px;
   /* flex-box, center image in cell */
   display: -webkit-box;
