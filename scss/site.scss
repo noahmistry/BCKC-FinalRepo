@@ -17,6 +17,7 @@ $grey: #818285;
 $dark-grey: #78797B;
 $light-grey: #b3b3b3;
 $light-grey-2: #e6e6e6;
+$darker-grey:#A9A9A9;
 $grey-variant: #DFE1E0;
 $white: #F3F3F3;
 $copper-red: #b87333;
@@ -91,7 +92,8 @@ body {
         // display: flex;
         // justify-content: center;
         // background: url('https://res.cloudinary.com/hsi/image/upload/v1554782638/BCKC/backgrounds/circuit.png');
-        background: url('https://res.cloudinary.com/hsi/image/upload/v1554783279/BCKC/backgrounds/full-bloom.png');
+        background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .2)),
+        url('https://res.cloudinary.com/hsi/image/upload/v1554783279/BCKC/backgrounds/full-bloom.png');
         display: grid;
         // grid-template-columns: 150px auto;
         grid-template-rows: 38px 190px;
@@ -129,11 +131,13 @@ h1 {
         margin-left: 12%;
         margin-top: 4rem;
         width: 100%;
+        text-shadow: #e0e0e0 1px 1px 0;
   span {
         color: $orange;
          display: flex;
         justify-content: center;
         padding-left: 1rem;
+        text-shadow: #e0e0e0 1px 1px 0;
   }
     }
 }

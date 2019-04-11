@@ -648,6 +648,13 @@ ol,
 form {
   margin-bottom: 2.5rem; }
 
+@media (min-width: 300px) and (max-width: 599px) {
+  #nav-logo .nav-logo-link #logo-link-img {
+    width: 80px;
+    height: 80px;
+    top: 10%;
+    left: 15%; } }
+
 @-moz-keyframes fadeIn {
   0% {
     opacity: 0; }
@@ -1327,7 +1334,10 @@ body {
     height: 280px;
     border-top: 6px double #b3b3b3; }
     .top-header .nav-header #nav-logo {
-      background: url("https://res.cloudinary.com/hsi/image/upload/v1554783279/BCKC/backgrounds/full-bloom.png");
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.2))), url("https://res.cloudinary.com/hsi/image/upload/v1554783279/BCKC/backgrounds/full-bloom.png");
+      background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("https://res.cloudinary.com/hsi/image/upload/v1554783279/BCKC/backgrounds/full-bloom.png");
+      background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("https://res.cloudinary.com/hsi/image/upload/v1554783279/BCKC/backgrounds/full-bloom.png");
+      background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("https://res.cloudinary.com/hsi/image/upload/v1554783279/BCKC/backgrounds/full-bloom.png");
       display: -ms-grid;
       display: grid;
       -ms-grid-rows: 38px 190px;
@@ -1371,7 +1381,8 @@ body {
           letter-spacing: 2px;
           margin-left: 12%;
           margin-top: 4rem;
-          width: 100%; }
+          width: 100%;
+          text-shadow: #e0e0e0 1px 1px 0; }
           .top-header .nav-header #nav-logo .nav-headings h1 span {
             color: #F7941E;
             display: -webkit-box;
@@ -1380,7 +1391,8 @@ body {
             -webkit-box-pack: center;
             -ms-flex-pack: center;
             justify-content: center;
-            padding-left: 1rem; }
+            padding-left: 1rem;
+            text-shadow: #e0e0e0 1px 1px 0; }
 
 .main-navigation {
   display: -ms-grid;
