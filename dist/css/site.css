@@ -1202,8 +1202,6 @@ form {
     border-radius: 0; } }
 
 .carousel {
-  padding-top: 20px;
-  padding-bottom: 20px;
   background: #F3F3F3; }
 
 .carousel-cell {
@@ -1324,7 +1322,6 @@ body {
 
 .top-header {
   height: 280px;
-  padding-top: 2.5vh;
   padding-bottom: 3vh; }
   .top-header .nav-header {
     display: -ms-grid;
