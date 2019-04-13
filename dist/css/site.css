@@ -649,11 +649,26 @@ form {
   margin-bottom: 2.5rem; }
 
 @media (min-width: 300px) and (max-width: 599px) {
-  #nav-logo .nav-logo-link #logo-link-img {
-    width: 80px;
-    height: 80px;
-    top: 10%;
-    left: 15%; } }
+  .top-header .nav-header {
+    -ms-grid-rows: 600px auto !important;
+    grid-template-rows: 600px auto !important; } }
+
+@media (min-width: 300px) and (max-width: 599px) {
+  .top-header .nav-header #nav-logo #logo-link-img {
+    width: 90px;
+    height: 90px;
+    top: 11vh;
+    left: 50%; } }
+
+@media (min-width: 300px) and (max-width: 599px) {
+  .nav-headings h1 {
+    margin-top: 3rem !important;
+    margin-left: 8%  !important;
+    font-size: 2.8em !important; } }
+  @media (min-width: 300px) and (max-width: 599px) and (min-width: 300px) and (max-width: 599px) {
+    .nav-headings h1 span {
+      padding-left: 5rem !important;
+      margin-left: 3.5rem; } }
 
 @-moz-keyframes fadeIn {
   0% {

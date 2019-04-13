@@ -15,20 +15,40 @@
   @media (min-width: 1800px) { @content; }
 }
 
-#nav-logo {
-    .nav-logo-link {
+.top-header {
+  .nav-header {
+    @include for-phone-only {
+      grid-template-rows: 600px auto !important;
+    }
+    #nav-logo {
       #logo-link-img {
         @include for-phone-only {
-          width: 80px;
-          height: 80px;
-          top: 10%;
-          left: 15%;
+          width: 90px;
+          height: 90px;
+          top: 11vh;
+          left: 50%;
       }
     }
   }
-  
 }
+}
+.nav-headings {
+  h1 {
+    @include for-phone-only {
+      margin-top: 3rem !important;
+      margin-left: 8%  !important;
+      font-size: 2.8em !important;
+
+      span {
+        @include for-phone-only {
+          padding-left: 5rem !important;
+          margin-left: 3.5rem;
+        }
+      }
+    }
 
 
+  }
 
+}
 
